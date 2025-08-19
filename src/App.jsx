@@ -64,7 +64,7 @@ function Hero() {
             <img
               className="h-full w-full object-cover"
               alt="Mașină după detailing"
-              src="public/images/hero_picture.jpg"
+              src="/images/hero_picture.jpg"
             />
           </div>
           <div className="absolute -bottom-5 -left-5 hidden md:flex items-center gap-3 rounded-2xl bg-white/90 p-4 shadow-xl border">
@@ -115,7 +115,7 @@ function Gallery() {
     "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1600&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1600&auto=format&fit=crop",
     "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1600&auto=format&fit=crop",
-    "public/images/bmw.jpeg",
+    "/images/bmw.jpeg",
   ];
 
   return (
